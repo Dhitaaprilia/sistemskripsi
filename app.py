@@ -42,7 +42,7 @@ with st.container():
     with st.sidebar:
         selected = option_menu(
         st.write("""<h3 style = "text-align: center;"></h3>""",unsafe_allow_html=True), 
-        ["Home", "Dataset","prediksi ulasan","Implementation"], 
+        ["Home", "Dataset","Klasifikasi","Peringkasan"], 
             icons=['house', 'bar-chart','check2-square', 'person'], menu_icon="cast", default_index=0,
             styles={
                 "container": {"padding": "0!important", "background-color": "#412a7a"},
@@ -64,7 +64,7 @@ with st.container():
         file_path2 = 'data prepo dhita.csv'  # Ganti dengan path ke file Anda
         data2 = pd.read_csv(file_path2)
         st.write(data2['Artikel', 'Category'].head(10))
-    if selected == "prediksi ulasan":
+    if selected == "Klasifikasi":
         import joblib
         # Menggunakan pandas untuk membaca file CSV
         file_path = 'data stopword tes.csv'  # Ganti dengan path ke file Anda
@@ -94,7 +94,7 @@ with st.container():
                 else:
                     st.error("Masukkan ulasan terlebih dahulu!")
 
-    if selected == "Implementation":
+    if selected == "Peringkasan":
         import joblib
         # Menggunakan pandas untuk membaca file CSV
         file_path = 'data stopword tes.csv'  # Ganti dengan path ke file Anda
