@@ -35,7 +35,7 @@ st.set_page_config(
     }
 )
 st.write("""
-<center><h2 style = "text-align: justify;">Analisis Sentimen Wisata Madura Dengan Maximum Entropy</h2></center>
+<center><h2 style = "text-align: justify;">Pengaruh Peringkasan Menggunakan Metode Maximum Marginal Relevance (MMR) Terhadap Klasifikasi Berita Dengan Metode Support Vector Machine (SVM)</h2></center>
 """,unsafe_allow_html=True)
 
 with st.container():
