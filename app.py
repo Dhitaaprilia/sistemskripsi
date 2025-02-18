@@ -57,13 +57,13 @@ with st.container():
         </h3>""", unsafe_allow_html=True)
     if selected == "Dataset":
         st.write("Data Sebelum Preprocessing")
-        file_path = 'data stopword tes.csv'  # Ganti dengan path ke file Anda
+        file_path = 'Data_BeritaDetik.csv'  # Ganti dengan path ke file Anda
         data = pd.read_csv(file_path)
-        st.write(data['Ulasan'].head(10))
+        st.write(data['Artikel', 'Category'].head(10))
         st.write("Data Setelah Preprocessing")
-        file_path2 = 'data preprocessing.csv'  # Ganti dengan path ke file Anda
+        file_path2 = 'data prepo dhita.csv'  # Ganti dengan path ke file Anda
         data2 = pd.read_csv(file_path2)
-        st.write(data2['Ulasan'].head(10))
+        st.write(data2['Artikel', 'Category'].head(10))
     if selected == "prediksi ulasan":
         import joblib
         # Menggunakan pandas untuk membaca file CSV
