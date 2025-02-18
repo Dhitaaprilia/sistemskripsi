@@ -53,7 +53,7 @@ with st.container():
         )
     if selected == "Home" :
         st.write("""<h3 style="text-align: center;">
-        <img src="WhatsApp Image 2025-02-11 at 02.34.42_a70a47c3.jpg" width="500" height="300">
+        <img src="https://img.freepik.com/free-vector/people-showcasing-different-types-ways-access-news_53876-66059.jpg?t=st=1739836314~exp=1739839914~hmac=97374f842066f72c85c3294967a4dfc6e8e88ada3d8ae4992dd0ca8cad16f61f&w=900" width="500" height="300">
         </h3>""", unsafe_allow_html=True)
     if selected == "Dataset":
         st.write("Data Sebelum Preprocessing")
