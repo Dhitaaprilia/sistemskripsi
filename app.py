@@ -25,7 +25,7 @@ warnings.filterwarnings('ignore')
 
 st.set_page_config(
     page_title="Skripsi",
-    page_icon='https://lh5.googleusercontent.com/p/AF1QipNgmGyncJl5jkHg6gnxdTSTqOKtIBpy-kl9PgDz=w540-h312-n-k-no',
+    page_icon='https://github.com/Dhitaaprilia/sistemskripsi/blob/982cc01cd39e8244922f42fe0dc0172c1522062d/WhatsApp%20Image%202025-02-11%20at%2002.34.42_a70a47c3.jpg',
     layout='centered',
     initial_sidebar_state="expanded",
     menu_items={
