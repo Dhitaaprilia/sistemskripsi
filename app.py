@@ -24,7 +24,7 @@ def get_driver():
 warnings.filterwarnings('ignore')
 
 st.set_page_config(
-    page_title="Sentimen Analysis",
+    page_title="Skripsi",
     page_icon='https://lh5.googleusercontent.com/p/AF1QipNgmGyncJl5jkHg6gnxdTSTqOKtIBpy-kl9PgDz=w540-h312-n-k-no',
     layout='centered',
     initial_sidebar_state="expanded",
