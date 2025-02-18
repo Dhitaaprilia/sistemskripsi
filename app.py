@@ -58,7 +58,7 @@ with st.container():
     if selected == "Dataset":
         st.write("Data Sebelum Preprocessing")
         file_path = 'Data_BeritaDetik.csv'  # Ganti dengan path ke file Anda
-        data = pd.read_csv(file_path)
+        data = pd.read_csv(file_path,delimiter=';')
         st.write(data['Artikel', 'Category'].head(10))
         st.write("Data Setelah Preprocessing")
         file_path2 = 'data prepo dhita.csv'  # Ganti dengan path ke file Anda
