@@ -59,11 +59,11 @@ with st.container():
         st.write("Data Sebelum Preprocessing")
         file_path = 'Data_BeritaDetik.csv'  # Ganti dengan path ke file Anda
         data = pd.read_csv(file_path,delimiter=';')
-        st.write(data['Artikel', 'Category'].head(10))
+        st.write(data.head(10))
         st.write("Data Setelah Preprocessing")
         file_path2 = 'data prepo dhita.csv'  # Ganti dengan path ke file Anda
         data2 = pd.read_csv(file_path2)
-        st.write(data2['Artikel', 'Category'].head(10))
+        st.write(data2.head(10))
     if selected == "Klasifikasi":
         import joblib
         # Menggunakan pandas untuk membaca file CSV
