@@ -34,7 +34,7 @@ with st.container():
         ["Home", "Dataset","Klasifikasi","Peringkasan"], 
             icons=['house', 'bar-chart','check2-square', 'person'], menu_icon="cast", default_index=0,
             styles={
-                "container": {"padding": "0!important", "background-color": "#412a7a"},
+                "container": {"padding": "0!important", "background-color": "#3674B5"},
                 "icon": {"color": "white", "font-size": "18px"}, 
                 "nav-link": {"font-size": "16px", "text-align": "left", "margin":"0px", "color":"white"},
                 "nav-link-selected":{"background-color": "#412a7a"}
