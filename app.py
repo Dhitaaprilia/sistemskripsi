@@ -37,7 +37,7 @@ with st.container():
                 "container": {"padding": "0!important", "background-color": "#3674B5"},
                 "icon": {"color": "white", "font-size": "18px"}, 
                 "nav-link": {"font-size": "16px", "text-align": "left", "margin":"0px", "color":"white"},
-                "nav-link-selected":{"background-color": "#412a7a"}
+                "nav-link-selected":{"background-color": "#074799"}
             }
         )
     if selected == "Home" :
